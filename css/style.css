@@ -1,0 +1,73 @@
+/* This is a CSS comment */
+body {
+	padding: 20% 10%;
+	font-family: calibri;
+	max-width: 1000px;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 1.4em;
+  background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVMWcSBozcmfDyAB_jR1tgyZ0CU8HLDZIw7CCqSbbi5atJrEOsaA");
+    background-color: white;
+}                 /* sets the left and right margins to equal values. This centers the body on the page.*/
+    
+h1 {
+	text-align: center;
+	color: white;
+  text-decoration: underline;
+}
+
+p {
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: none; /* this removes the bullets that show up by default in unordered lists */
+}
+
+li {
+	font-size: 20px;
+	line-height: 44px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */
+}
+
+.lesson {
+	background-color: black;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.concept {
+	background-color: silver;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: black;
+  text-decoration: underline;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+.code {
+	font-family: Courier;
+	color : black;
+	font-weight: bold;
+	padding-left:  4px;
+	padding-right: 4px;
+}
+
+.pic {
+	text-align: center;
